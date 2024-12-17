@@ -1,3 +1,0 @@
-const t={date:"2013",title:"串门骑行打怪队骑字指北",url:"XX",tags:["传播","互动"]},n=`<p>时间过的真快，回到 2024 年 6 月 3 号那天…</p>
-`,o=`时间过的真快，回到 2024 年 6 月 3 号那天......
-`;export{t as attributes,n as html,o as markdown};
