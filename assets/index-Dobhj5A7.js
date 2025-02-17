@@ -46,7 +46,7 @@ import{d as X,r as j,o as I,c as r,a,b as t,u as y,t as v,F as $,e as T,f as A,n
 <ul>
 <li><strong>串门骑行打怪队 I 自组织 I DAO</strong>：</li>
 </ul>
-<p>骑行友好共创小组：门精灵、车厘子、断离舍、曼婷、小酷、冲鸭、元杰、十一、大川、休休爸、青静、邵雨、精灵骑士、林乔、苏州宜拜克、Sy、顾毓敏、小圈、骑车部落大唐</p>
+<p>骑行友好共创小组：门精灵、车厘子、断离舍、曼婷、小酷、冲鸭、元杰、十一、大川、休休爸、青静、邵雨、精灵骑士、林乔、苏州宜拜克、Sy、顾毓敏、小圈、骑车部落大唐、木山、三石</p>
 <div class="pricing-img-container">
     <img src="https://trylab.cyou/assets/cmqxdgd-hQWbIitG.png" alt="image" />
 </div>
