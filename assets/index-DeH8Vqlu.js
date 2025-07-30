@@ -42,11 +42,11 @@ import{d as X,r as j,o as I,c as r,a,b as t,u as y,t as v,F as $,e as T,f as M,n
 <ul>
 <li><strong>支持伙伴</strong>：</li>
 </ul>
-<p>成都市成华社区发展基金会、成都可持续社区串门计划、天府社创中心</p>
+<p>成都市成华社区发展基金会、成都可持续社区串门计划、天府社创中心、成都社会主义精神文明建设促进会</p>
 <ul>
 <li><strong>串门骑行打怪队 I 自组织 I DAO</strong>：</li>
 </ul>
-<p>骑行友好共创小组：门精灵、车厘子、断离舍、曼婷、小酷、冲鸭、元杰、十一、大川、休休爸、青静、邵雨、精灵骑士、林乔、苏州宜拜克、Sy、顾毓敏、小圈、骑车部落大唐、木山、三石</p>
+<p>骑行友好共创小组：门精灵、车厘子、断离舍、曼婷、小酷、冲鸭、元杰、十一、大川、休休爸、青静、邵雨、精灵骑士、林乔、苏州宜拜克、Sy、顾毓敏、小圈、骑车部落大唐、木山、三石、南、木灯</p>
 <div class="pricing-img-container">
     <img src="https://trylab.cyou/assets/cmqxdgd-hQWbIitG.png" alt="image" />
 </div>
