@@ -1,0 +1,4 @@
+const t={title:"天府绿道",latitude:30.567207,longitude:104.066173,date:"2023-03",image:"0km.jpg",tags:["绿道 0 km打卡点","雪山下公园城市观景点"],url:"https://zh.wikipedia.org/wiki/XX"},i=`<p>绕城绿道天府鸿锦桥·桂溪生态公园段，也是绕城绿道 0 KM 起点处。该桥横跨天府大道，是成都绕城绿道 78 座特色桥梁之一。</p>
+`,e=`绕城绿道天府鸿锦桥·桂溪生态公园段，也是绕城绿道 0 KM 起点处。该桥横跨天府大道，是成都绕城绿道 78 座特色桥梁之一。
+
+`;export{t as attributes,i as html,e as markdown};
