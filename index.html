@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="串门骑行打怪队，骑行友好实验计划，一场无限的可持续生活游戏。" />
   <meta name="keywords" content="BikeToWork, BikeToLife, 绿色出行, 骑行, 可持续生活">
-  
+
   <!-- 社交分享 -->
   <meta property="og:title" content="串门骑行打怪·实践可持续生活">
   <meta property="og:description" content="串门骑行打怪队，骑行友好实验计划，一场无限的可持续生活游戏。">
@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://trylab.cyou/">
   <meta name="twitter:card" content="summary_large_image">
-  
+
   <!-- 移动端屏幕配置 -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="BikeToLife">
@@ -24,6 +24,12 @@
   <meta name="apple-mobile-web-app-title" content="BikeToLife">
   <link rel="icon" href="logo.png">
   <link rel="apple-touch-icon" href="logo.png">
+
+  <!-- 预加载 -->
+  <link rel="preload" href="/src/assets/logo.png" as="image">
+  <link rel="modulepreload" href="data:text/javascript;base64,CmltcG9ydCB7IGNyZWF0ZUFwcCB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgY3JlYXRlUGluaWEgfSBmcm9tICdwaW5pYSc7CmltcG9ydCB7IHVzZU1haW5TdG9yZSB9IGZyb20gJy4vc3RvcmUnOwppbXBvcnQgJ2Jvb3RzdHJhcCc7CmltcG9ydCAnLi9zdHlsZS5jc3MnCmltcG9ydCBBcHAgZnJvbSAnLi9BcHAudnVlJwppbXBvcnQgQW5hbHl0aWNzIGZyb20gJ2FuYWx5dGljcyc7CmltcG9ydCBnb29nbGVBbmFseXRpY3MgZnJvbSAnQGFuYWx5dGljcy9nb29nbGUtYW5hbHl0aWNzJzsKCi8vIOWIm+W7uiBWdWUg5a6e5L6LCmNvbnN0IGFwcCA9IGNyZWF0ZUFwcChBcHApOwpjb25zdCBwaW5pYSA9IGNyZWF0ZVBpbmlhKCk7CgovLyDms6jlhowgUGluaWEKYXBwLnVzZShwaW5pYSk7CmNvbnN0IHN0b3JlID0gdXNlTWFpblN0b3JlKHBpbmlhKTsgCgovLyDnm5HlkKznqpflj6PlpKflsI/lj5jljJYKZnVuY3Rpb24gaGFuZGxlUmVzaXplKCkgewogICAgc3RvcmUuc2V0SXNNb2JpbGUod2luZG93LmlubmVyV2lkdGggPCA3NjggPyB0cnVlIDogZmFsc2UpOwp9CmhhbmRsZVJlc2l6ZSgpOwp3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigncmVzaXplJywgaGFuZGxlUmVzaXplKTsKYXBwLm1vdW50KCcjYXBwJyk7CgovLyBHb29nbGUgQW5hbHl0aWNzIOmFjee9rgpjb25zdCBhbmFseXRpY3MgPSBBbmFseXRpY3MoewogIGFwcDogJ015SVAnLAogIHBsdWdpbnM6IFsKICAgIGdvb2dsZUFuYWx5dGljcyh7CiAgICAgIG1lYXN1cmVtZW50SWRzOiBbJ0ctNllSOEJNWVMyQyddLAogICAgfSkKICBdCn0pOwoKYW5hbHl0aWNzLnBhZ2UoKTsKCg==">
+  <!-- 异步加载非关键CSS -->
+  <link rel="stylesheet" href="data:text/css;base64,QGltcG9ydCAnYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5taW4uY3NzJzsKQGltcG9ydCAnYm9vdHN0cmFwLWljb25zL2ZvbnQvYm9vdHN0cmFwLWljb25zLm1pbi5jc3MnOwoKOnJvb3QgewogIC0tbmV1dHJhbC05MDA6ICMwZjEyMjE7CiAgLS1wdXJwbGU6ICM1Yzk2NTE7CiAgLS1uZXV0cmFsLTEwMDogI2Y5ZjlmYzsKICAtLW5ldXRyYWwtNTAwOiAjNjU2YjhlOwogIC0tcHVycGxlLWRhcms6ICNkYzVmMTY7CiAgLS1uZXV0cmFsLTQwMDogIzk4OWRiYjsKICAtLW5ldXRyYWwtODAwOiAjMWUyMjM4OwogIC0tcHVycGxlLWxpZ2h0ZXI6IHJnYmEoOTQsIDU4LCAyMzgsIC4wOCk7CiAgLS1uZXV0cmFsLTMwMDogI2UwZTJlZjsKICAtLWdyZWVuOiAjM2FlOGI0OwogIC0tb3JhbmdlLWxpZ2h0ZXI6IHJnYmEoMjU1LCAxNjgsIDY2LCAuMDgpOwogIC0tbmV1dHJhbC02MDA6ICMzYzQyNjM7CiAgLS1ncmVlbi1kYXJrOiAjMTljNzkyOwogIC0tb3JhbmdlLWxpZ2h0OiAjZmZjYThjOwogIC0tZ3JlZW4tbGlnaHQ6ICM4NWZiZDc7CiAgLS1ncmVlbi1saWdodGVyOiByZ2JhKDU4LCAyMzIsIDE3OSwgLjA4KTsKICAtLW9yYW5nZS1kYXJrOiAjZGI4MTE3OwogIC0tZ3JlZW4tZGFya2VyOiAjMGE5YjZmOwogIC0tb3JhbmdlOiAjZmZhODQyOwogIC0tcHVycGxlLWRhcmtlcjogIzVjOTY1MTsKICAtLW9yYW5nZS1kYXJrZXI6ICNiNDY1MDg7CiAgLS1wdXJwbGUtbGlnaHQ6ICM1Yzk2NTE7Cn0KCmJvZHkgewogIG1hcmdpbjogMDsKICBwYWRkaW5nOiAwOwogIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7Cn0KCkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHsKICAuY29udGFpbmVyLCAuY29udGFpbmVyLWxnLCAuY29udGFpbmVyLW1kLCAuY29udGFpbmVyLXNtLCAuY29udGFpbmVyLXhsIHsKICAgICAgbWF4LXdpZHRoOiAxNjAwcHg7CiAgfQp9CgoubmF2YmFyLW5hdiAubmF2LWxpbmsuYWN0aXZlIHsKICBjb2xvcjogdmFyKC0tcHVycGxlKTsKICBmb250LXdlaWdodDogNTAwOwp9CgoudGV4dC1wdXJwbGUgewogIGNvbG9yOiB2YXIoLS1wdXJwbGUpOwp9CgouYmctcHVycGxlIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1wdXJwbGUpOwp9CgoubGluay1wdXJwbGUgewogIGNvbG9yOiB2YXIoLS1wdXJwbGUpOwp9CgoubGluay1wdXJwbGU6aG92ZXIgewogIGNvbG9yOiB2YXIoLS1wdXJwbGUtZGFyayk7Cn0KCi5idG4tcHVycGxlIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1wdXJwbGUpOwogIGNvbG9yOiAjZmZmOwogIGJvcmRlcjogbm9uZTsKICBwYWRkaW5nOiAwLjZyZW0gMXJlbTsKICBib3JkZXItcmFkaXVzOiAwLjVyZW07CiAgZm9udC1zaXplOiAxcmVtOwogIGN1cnNvcjogcG9pbnRlcjsKICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuM3M7CiAgdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9CgouYnRuLXB1cnBsZTpob3ZlciB7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcHVycGxlLWRhcmspOwogIGNvbG9yOiAjZmZmOwp9CgouYnRuLXB1cnBsZTphY3RpdmUgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLXB1cnBsZSk7Cn0KCi5qbi1jYXJkIHsKICBib3gtc2hhZG93OiAwIDAgMTBwdCAjMDAwMDAwMWM7CiAgaGVpZ2h0OiAxMDAlOwogIGJvcmRlcjogMXB4IHNvbGlkICNmZmZmZmYyZTsKfQouam4tYmFkZ2UgewogIHdpZHRoOiBmaXQtY29udGVudDsKICBwYWRkaW5nOiAwLjVyZW0gMXJlbTsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgbGVmdDogMjhwdDsKICB0b3A6IDE4cHQ7Cn0KLmpuLWNhcmQtdGV4dCB7CiAgZm9udC13ZWlnaHQ6IDMwMDsKfQouam4tbGVmdC1wYW5lbCB7CiAgcGFkZGluZy1sZWZ0OiAyOHB0Owp9Ci5qbi1yaWdodC1wYW5lbCB7CiAgcGFkZGluZy1sZWZ0OiAyOHB0OwogIHBhZGRpbmctcmlnaHQ6IDI4cHQ7Cn0KLmpuLWljb24gewogIGZvbnQtc2l6ZTogM3JlbTsKICBjb2xvcjogdmFyKC0tYnMtZGFyayk7CiAgcG9zaXRpb246IHJlbGF0aXZlOwp9Cgouam4taWNvbjo6YWZ0ZXIgewogIGNvbnRlbnQ6ICcnOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICBsZWZ0OiAtMTBweDsKICBib3R0b206IDEwcHg7CiAgd2lkdGg6IDMwcHg7CiAgaGVpZ2h0OiAzMHB4OwogIGJhY2tncm91bmQtY29sb3I6IHJnYmEoNTgsIDIzMiwgMTgwLCAwLjUpOwogIGJvcmRlci1yYWRpdXM6IDUwJTsKfQoKLmJhY2tncm91bmQgewogICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCdwYXRoL3RvL3lvdXIvaW1hZ2UuanBnJyk7CiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOwogICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyOwogICAgaGVpZ2h0OiAxMDB2aDsKICAgIHdpZHRoOiAxMDAlOwogICAgcG9zaXRpb246IGFic29sdXRlOwogICAgdG9wOiAwOwogICAgbGVmdDogMDsKICAgIHotaW5kZXg6IC0xOwp9Cg==" media="print" onload="this.media='all'">
 
   <title>串门骑行打怪·实践可持续生活</title>
   <link rel="icon" href="logo.png">
@@ -37,6 +43,16 @@
       border-radius: 50%;
       border-left-color: transparent;
       animation: spin 1s linear infinite;
+    }
+
+    /* 优化加载状态样式 */
+    .jn-loading.hidden {
+      display: none;
+    }
+
+    .jn-loading.fade-out {
+      opacity: 0;
+      transition: opacity 0.3s ease-out;
     }
 
     .jn-loading {
@@ -55,17 +71,19 @@
       font-size: 14px;
       color: #777;
     }
-     /* 视觉隐藏但保持可访问性 */
+
+    /* 视觉隐藏但保持可访问性 */
     .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-  }
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
     @keyframes spin {
       0% {
         transform: rotate(0deg);
@@ -76,20 +94,29 @@
       }
     }
   </style>
-  <script type="module" crossorigin src="./assets/index-D0leoF_v.js"></script>
+  <script async type="module" crossorigin src="./assets/index-ierz8PUW.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/vendor-B7hMTXyf.js">
   <link rel="modulepreload" crossorigin href="./assets/ui-BrD-T1AS.js">
-  <link rel="stylesheet" crossorigin href="./assets/index-B2kQD2tF.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-D609AXyR.css">
 </head>
 
 <body>
   <h1 class="visually-hidden">串门骑行打怪·实践可持续生活</h1>
+  
   <div id="jn-loading" class="jn-loading">
     <div class="jn-spinner "></div>
     <div class="jn-spinner-text">
       <p>努力骑行中...</p>
     </div>
   </div>
+
+  <!-- noscript提示 -->
+  <noscript>
+    <div class="noscript-message">
+      请启用 JavaScript 以获得最佳体验!
+    </div>
+  </noscript>
+
   <div id="app"></div>
 </body>
 
